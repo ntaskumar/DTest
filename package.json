@@ -1,0 +1,42 @@
+{
+  "name": "axios-practice-using-picture-api",
+  "version": "1.0.0",
+  "homepage": "https://ntaskumar.github.io/DTest",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "axios": "^0.21.1",
+    "intersection-observer": "^0.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2",
+    "react-router": "^6.24.1",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
